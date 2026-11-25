@@ -1,0 +1,5 @@
+data,features,n,logistic,gradient boosting
+raw,"all vitals + age + sex, imputed",40336,0.7018908143194335,0.9527886051829269
+raw,"near-complete only, complete cases",39616,0.7036173755108218,0.9326598657887054
+harmonized,"all vitals + age + sex, imputed",39922,0.704106148935201,0.8513344908468395
+harmonized,"near-complete only, complete cases",39202,0.7056858486154765,0.7555767754340827

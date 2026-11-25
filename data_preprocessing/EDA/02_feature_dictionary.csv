@@ -1,0 +1,41 @@
+variable,group,description,units,proposed
+HR,Vital sign,Heart rate,beats/min,True
+O2Sat,Vital sign,Pulse oximetry,%,True
+Temp,Vital sign,Temperature,deg C,True
+SBP,Vital sign,Systolic blood pressure,mmHg,True
+MAP,Vital sign,Mean arterial pressure (forecast target),mmHg,True
+DBP,Vital sign,Diastolic blood pressure,mmHg,True
+Resp,Vital sign,Respiration rate,breaths/min,True
+EtCO2,Vital sign,End-tidal CO2,mmHg,False
+BaseExcess,Laboratory,Base excess,mmol/L,True
+HCO3,Laboratory,Bicarbonate,mmol/L,True
+FiO2,Laboratory,Fraction of inspired oxygen,% (check scale: fraction or %),False
+pH,Laboratory,Arterial pH,-,True
+PaCO2,Laboratory,Arterial partial pressure of CO2,mmHg,False
+SaO2,Laboratory,Arterial oxygen saturation,%,False
+AST,Laboratory,Aspartate transaminase,IU/L,False
+BUN,Laboratory,Blood urea nitrogen,mg/dL,True
+Alkalinephos,Laboratory,Alkaline phosphatase,IU/L,False
+Calcium,Laboratory,Calcium,mg/dL,False
+Chloride,Laboratory,Chloride,mmol/L,False
+Creatinine,Laboratory,Creatinine,mg/dL,True
+Bilirubin_direct,Laboratory,Direct bilirubin,mg/dL,False
+Glucose,Laboratory,Serum glucose,mg/dL,True
+Lactate,Laboratory,Lactic acid,mg/dL as listed (check below),True
+Magnesium,Laboratory,Magnesium,mmol/dL as listed (likely mmol/L or mg/dL),False
+Phosphate,Laboratory,Phosphate,mg/dL,False
+Potassium,Laboratory,Potassium,mmol/L,True
+Bilirubin_total,Laboratory,Total bilirubin,mg/dL,False
+TroponinI,Laboratory,Troponin I,ng/mL,False
+Hct,Laboratory,Hematocrit,%,True
+Hgb,Laboratory,Hemoglobin,g/dL,True
+PTT,Laboratory,Partial thromboplastin time,seconds,False
+WBC,Laboratory,White blood cell count,10^3/uL,True
+Fibrinogen,Laboratory,Fibrinogen,mg/dL,False
+Platelets,Laboratory,Platelet count,10^3/uL,True
+Age,Demographic/time,Age (100 = 90 or older),years,True
+Gender,Demographic/time,"Sex (0 = female, 1 = male)",-,True
+Unit1,Demographic/time,ICU unit: medical ICU (MICU),0/1,True
+Unit2,Demographic/time,ICU unit: surgical ICU (SICU),0/1,True
+HospAdmTime,Demographic/time,Hours between hospital admission and ICU admission,hours,True
+ICULOS,Demographic/time,Hours since ICU admission,hours,True
